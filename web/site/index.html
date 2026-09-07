@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Docker Git Lab</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🐳 Docker + Git Lab</h1>
+
+        <p>
+            Atividade Prática - Docker e Git
+        </p>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>🚀 Servidor Nginx funcionando!</h2>
+
+            <p>
+                Esta página está sendo executada em um container
+                Docker utilizando o servidor web Nginx.
+            </p>
+
+            <button onclick="mostrarStatus()">
+                Verificar Status
+            </button>
+
+            <p id="status"></p>
+        </section>
+
+
+        <section>
+            <h2>📚 Atividade Prática</h2>
+
+            <p>
+                Nesta atividade foram utilizados conceitos de
+                Docker, Git e Nginx, trabalhando com criação,
+                execução e gerenciamento de containers.
+            </p>
+
+            <div class="cards">
+
+                <div class="card">
+                    <h3>🐧 Ubuntu</h3>
+
+                    <p>
+                        Criação de uma imagem baseada no Ubuntu
+                        para utilização da ferramenta de ping.
+                    </p>
+                </div>
+
+
+                <div class="card">
+                    <h3>🌐 Nginx</h3>
+
+                    <p>
+                        Utilização do Nginx como servidor web
+                        para disponibilizar esta página.
+                    </p>
+                </div>
+
+
+                <div class="card">
+                    <h3>📦 Git</h3>
+
+                    <p>
+                        Utilização do Git para controle de versão
+                        e registro das etapas do projeto.
+                    </p>
+                </div>
+
+
+                <div class="card">
+                    <h3>🔗 Bind Mount</h3>
+
+                    <p>
+                        Utilização de Bind Mount para permitir
+                        alterações nos arquivos do site sem
+                        reconstruir a imagem.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section>
+            <h2>👩‍💻 Dados do Projeto</h2>
+
+            <p>
+                <strong>Aluna:</strong> Erica Emanuelly
+            </p>
+
+            <p>
+                <strong>Curso:</strong>
+                Análise e Desenvolvimento de Sistemas
+            </p>
+
+            <p>
+                <strong>Instituição:</strong>
+                FAETERJ Paracambi
+            </p>
+
+            <p>
+                <strong>Professor:</strong> Henrique
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>Projeto Docker + Git Lab</p>
+
+        <p>FAETERJ Paracambi - RJ</p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
